@@ -69,8 +69,9 @@
 					</div>
 					<hr class="col-lg-12">
 					<input class="form-control" type="number" name="bayarkan" v-model="bayarkan" placeholder="Rp."><br>
-					<button class="form-control" onclick="window.location.reload(true)" style="cursor:pointer">CLEAR</button>
-					<button v-on:click="bayar()" class="btn btn-info float-right"><h1>Charge Rp. @{{total_bayar}}</h1></button>
+                    <button class="form-control" onclick="window.location.reload(true)" style="cursor:pointer">CLEAR</button>
+                    <hr class="col-lg-12">
+					<button v-on:click="bayar()" class="form-control"><h1>Charge Rp. @{{total_bayar}}</h1></button>
 				</div>
 			</div>
 
