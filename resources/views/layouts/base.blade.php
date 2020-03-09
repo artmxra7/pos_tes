@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@yield('title') | ALAN POS</title>
+    <title>@yield('title') Pesanan</title>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -132,7 +132,7 @@
 <body>
 
     @yield('content')
-    
+
     <!-- Mainly scripts -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
@@ -140,9 +140,9 @@
 
     <script type="text/javascript">
         $(document).ready(function() {
-            // Transition effect for navbar 
+            // Transition effect for navbar
             $(window).scroll(function() {
-              if($(this).scrollTop() > 100) { 
+              if($(this).scrollTop() > 100) {
                 $('#navbar').addClass('navbar-light bg-light fixed-top text-dark');
                 $('#navbar').removeClass('bg-transparent navbar-dark bg-dark text-light');
                 document.getElementById('logo').src = 'https://s3-ap-southeast-1.amazonaws.com/image.mokapos.com/growth/homepage/navbar/desktop/blue.svg';
@@ -156,15 +156,15 @@
             });
 
             // Modal
-            var $videoSrc;  
+            var $videoSrc;
             $('.video-btn').click(function() {
                 $videoSrc = $(this).data( "src" );
             });
             $('#myModal').on('shown.bs.modal', function (e) {
-                $("#video").attr('src',$videoSrc + "?autoplay=1&amp;modestbranding=1&amp;showinfo=0" ); 
+                $("#video").attr('src',$videoSrc + "?autoplay=1&amp;modestbranding=1&amp;showinfo=0" );
             })
             $('#myModal').on('hide.bs.modal', function (e) {
-                $("#video").attr('src',$videoSrc); 
+                $("#video").attr('src',$videoSrc);
             })
         });
     </script>
