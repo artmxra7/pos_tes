@@ -45,8 +45,8 @@
 						</div>  --}}
 					</div>
 				</div>
-				<div class="col-lg-4">
-					<div class="row text-center" style="margin-left: 1px; margin-right: 2px;">
+				<div class="col-lg-4" style="background-color: white;">
+					<div class="row text-center" style="padding-top: 10px;padding-bottom: 10px;/* margin-left: 1px; *//* margin-right: 2px; */">
 						<div class="col-lg-3 border"><i class="fa fa-user" style="margin: 10px;"></i></div>
 						<div class="col-lg-6"><h4>New Customer</h4></div>
 						<div class="col-lg-3 border pd-4"><i class="fa fa-bars" style="margin: 10px;"></i></div>
