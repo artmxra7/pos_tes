@@ -58,7 +58,7 @@
             margin-top: 0px;
         }
         .padding-category{
-            margin-bottom: 5px;
+            //margin-bottom: 5px;
         }
 
         .category-description{
@@ -128,6 +128,12 @@
         .hr-footer{
             border: 0.5px solid #fff;
         }
+
+        .border {
+            border: none;
+        }
+
+
     </style>
 </head>
 <body>
