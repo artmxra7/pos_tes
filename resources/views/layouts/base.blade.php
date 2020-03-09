@@ -10,6 +10,7 @@
 
     <style type="text/css">
         body {
+            background-color: #EAEFF1;
             font-family: Helvetica;
         }
         .banner{

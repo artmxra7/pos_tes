@@ -17,9 +17,9 @@
 									</div>
 									<div class="category-description">@{{product.nama}}</div>
 								</div>
-							</div>	
+							</div>
 						</div>
-						<div class="col-lg-2">
+						{{--  <div class="col-lg-2">
 							<div class="row text-center">
 								<div class="col-lg-12 p-1 border bg-light bg-transparent padding-category">
 									<div class="btn-transparent bg-dark p-4"><h1>Cu</h1></div>
@@ -42,7 +42,7 @@
 									<div class="category-description">Happy Hour</div>
 								</div>
 							</div>
-						</div>
+						</div>  --}}
 					</div>
 				</div>
 				<div class="col-lg-4">
@@ -72,7 +72,7 @@
 					<button v-on:click="bayar()" class="btn btn-info float-right"><h1>Charge Rp. @{{total_bayar}}</h1></button>
 				</div>
 			</div>
-			
+
 		</div>
 		<br>
 		<hr>
