@@ -94,17 +94,17 @@
 				products: [
 					{
 						id: 1,
-						nama: "Cumi Tepung",
+						nama: "Capucino 1",
 						harga: 20000,
-						image: 'https://i.pinimg.com/originals/0d/f8/ff/0df8ff689a5b263ad6d11e5a3c733b9f.jpg',
+						image: 'https://upload.wikimedia.org/wikipedia/commons/1/16/Classic_Cappuccino.jpg',
 						jumlah: 0,
 						total: 0,
 					},
 					{
 						id: 2,
-						nama: "Cumi Bakar",
+						nama: "Capucino 2",
 						harga: 22000,
-						image: 'https://i2.wp.com/resepkoki.id/wp-content/uploads/2017/02/Resep-Cumi-Bakar.jpg?fit=2322%2C2235&ssl=1',
+						image: 'https://upload.wikimedia.org/wikipedia/commons/1/16/Classic_Cappuccino.jpg',
 						jumlah: 0,
 						total: 0,
 					},
