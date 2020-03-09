@@ -86,6 +86,11 @@
             margin-bottom: 18px;
         }
 
+            .p-4 {
+                padding: 0.0rem!important;
+            }
+
+
         .modal-dialog {
             max-width: 800px;
             margin: 30px auto;
@@ -129,9 +134,6 @@
             border: 0.5px solid #fff;
         }
 
-        .border {
-            border: none;
-        }
 
 
     </style>
