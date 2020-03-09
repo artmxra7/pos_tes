@@ -13,26 +13,7 @@
             background-color: #EAEFF1;
             font-family: Helvetica;
         }
-        .banner{
-            height: 100vh;
-            min-height: 770px;
-            padding-top: 256px;
-            background: url(https://s3-ap-southeast-1.amazonaws.com/image.mokapos.com/growth/homepage/index/index-jumbotron@2x.png) no-repeat 50%;
-            background-blend-mode: multiply;
-            background-size: cover;
-        }
-        .banner-title{
-            font-size: 40px;
-            font-weight: 500;
-            line-height: 1.38;
-            color: #fff;
-        }
-        .banner-body{
-            margin-top: 15px;
-            font-size: 20px;
-            line-height: 1.8;
-            color: #fff;
-        }
+
         a:hover {
           text-decoration: none;
         }
@@ -50,41 +31,14 @@
             background: transparent;
         }
 
-        .padding-bisnis {
-            padding: 28px;
-        }
+
         .padding-menu{
             margin: 30px;
             margin-top: 0px;
         }
-        .padding-category{
-            //margin-bottom: 5px;
-        }
 
-        .category-description{
-            background: white;
-        }
 
-        .text-header-moka{
-            font-size: 30px;
-            font-weight: 500;
-            line-height: 1.33;
-            color: #37549c;
-        }
-        .text-header-footer{
-            color: #6d7587;
-            font-size: 17px;
-            text-transform: capitalize;
-            margin-top: 18px;
-            margin-bottom: 18px;
-        }
 
-        .text-header-footer li a{
-            color: #6d7587;
-            font-size: 17px;
-            text-transform: capitalize;
-            margin-bottom: 18px;
-        }
 
             .p-4 {
                 padding: 0.0rem!important;
