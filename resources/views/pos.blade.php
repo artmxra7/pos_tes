@@ -69,6 +69,7 @@
 					</div>
 					<hr class="col-lg-12">
 					<input class="form-control" type="number" name="bayarkan" v-model="bayarkan" placeholder="Rp."><br>
+					<button class="form-control">href="javascript:location.reload(true)">Refresh this page</a></button>
 					<button v-on:click="bayar()" class="btn btn-info float-right"><h1>Charge Rp. @{{total_bayar}}</h1></button>
 				</div>
 			</div>
