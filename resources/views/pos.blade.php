@@ -11,8 +11,8 @@
 					<div class="row">
 						<div class="col-lg-10">
 							<div class="row">
-								<div class="btn btn-transparent col-lg-3 border bg-transparent bg-light padding-menu" v-for="(index, product) in products" v-on:click="add_pesanan(product.id)">
-									<div class="col-lg-12 border bg-light bg-transparent padding-category">
+								<div class="btn btn-transparent col-lg-3  bg-transparent bg-light padding-menu" v-for="(index, product) in products" v-on:click="add_pesanan(product.id)">
+									<div>
 										<div class="p-4"><img src="@{{product.image}}" style="max-width: 100%"></div>
 									</div>
 									<div class="category-description">@{{product.nama}}</div>
@@ -105,110 +105,6 @@
 						nama: "Capucino 2",
 						harga: 22000,
 						image: 'https://upload.wikimedia.org/wikipedia/commons/1/16/Classic_Cappuccino.jpg',
-						jumlah: 0,
-						total: 0,
-					},
-					{
-						id: 3,
-						nama: "Cumi Cabe Goreng",
-						harga: 20000,
-						image: 'https://img-global.cpcdn.com/recipes/7ee2c20392265df7/751x532cq70/cumi-crispy-bawang-pedas-cumi-cabe-garam-foto-resep-utama.jpg',
-						jumlah: 0,
-						total: 0,
-					},
-					{
-						id: 4,
-						nama: "Cah Kangkung",
-						harga: 10000,
-						image: 'https://i0.wp.com/resepkoki.id/wp-content/uploads/2017/04/Resep-Tumis-kangkung.jpg?fit=2448%2C2288&ssl=1',
-						jumlah: 0,
-						total: 0,
-					},
-					{
-						id: 5,
-						nama: "Tahu Goreng",
-						harga: 15000,
-						image: 'https://asset-a.grid.id/crop/0x0:0x0/700x465/photo/sasefoto/original/37631_supaya-tahu-goreng-tidak-keriput-ingat-selalu-cara-menggoreng-ini.jpg',
-						jumlah: 0,
-						total: 0,
-					},
-					{
-						id: 6,
-						nama: "Cah Toge",
-						harga: 10000,
-						image: 'https://cdn0-production-images-kly.akamaized.net/H8neBPztEBU4Q_AL9uZBX-KY6XU=/375x208/smart/filters:quality(75):strip_icc():format(jpeg)/kly-media-production/medias/2483203/original/053824300_1543321404-resep-tumis-tauge-saus-tiram-ala-anak-kos.jpg',
-						jumlah: 0,
-						total: 0,
-					},
-					{
-						id: 7,
-						nama: "Kerang",
-						harga: 25000,
-						image: 'https://media-cdn.tripadvisor.com/media/photo-s/14/08/a9/ba/kerang-bakar-jimbaran.jpg',
-						jumlah: 0,
-						total: 0,
-					},
-					{
-						id: 8,
-						nama: "Kepiting",
-						harga: 35000,
-						image: 'https://craftlog.com/m/i/5221029=s1280=h960',
-						jumlah: 0,
-						total: 0,
-					},
-					{
-						id: 9,
-						nama: "Gurame Asam",
-						harga: 25000,
-						image: 'https://www.agrowindo.com/wp-content/uploads/2017/07/Peluang-usaha-gurame-asam-pedas-dan-analisa-usahanya.jpg',
-						jumlah: 0,
-						total: 0,
-					},
-					{
-						id: 10,
-						nama: "Udang Bakar",
-						harga: 30000,
-						image: 'https://doyanresep.com/wp-content/uploads/2019/03/resep-udang-bakar-madu.jpg',
-						jumlah: 0,
-						total: 0,
-					},
-					{
-						id: 11,
-						nama: "Udang Saos",
-						harga: 25000,
-						image: 'https://img-global.cpcdn.com/recipes/3285d0e89b215424/751x532cq70/udang-saus-padang-foto-resep-utama.jpg',
-						jumlah: 0,
-						total: 0,
-					},
-					{
-						id: 12,
-						nama: "Udang Mayonaise",
-						harga: 25000,
-						image: 'https://selerasa.com/wp-content/uploads/2015/07/images_ikan_resep_udang_19-udang-saus-mayonaise.jpg',
-						jumlah: 0,
-						total: 0,
-					},
-					{
-						id: 13,
-						nama: "Iced Tea",
-						harga: 8000,
-						image: 'https://warungdulukala.com/wp-content/uploads/2018/09/es-teh-manis-1.jpg',
-						jumlah: 0,
-						total: 0,
-					},
-					{
-						id: 14,
-						nama: "Es Jeruk Nipis",
-						harga: 10000,
-						image: 'https://img-global.cpcdn.com/recipes/a77ed129737ae82c/751x532cq70/es-timun-jeruk-nipis-pr_recookanekaminumandingin-foto-resep-utama.jpg',
-						jumlah: 0,
-						total: 0,
-					},
-					{
-						id: 15,
-						nama: "Nasi Putih",
-						harga: 5000,
-						image: 'https://awsimages.detik.net.id/visual/2019/07/09/5eb5d75b-7eae-4e9c-8a94-1b3a536891ec_169.jpeg?w=650',
 						jumlah: 0,
 						total: 0,
 					},
