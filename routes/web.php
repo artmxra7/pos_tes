@@ -12,9 +12,5 @@
 */
 
 Route::get('/', function () {
-    return view('index');
-})->name('index');
-
-Route::get('/pos', function () {
     return view('pos');
 })->name('pos');
